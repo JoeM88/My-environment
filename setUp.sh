@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd
+
 echo "****************************************"
 echo "Update"
 echo
@@ -29,12 +31,11 @@ echo "Installing emacs24"
 echo
 sudo apt-get install emacs24
 
-emacs
-
 clear
 echo "******************************************"
 echo "Removing .emacs.d/"
 echo
+
 rm -rf .emacs.d/
 
 clear
